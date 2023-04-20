@@ -8,11 +8,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/*HEADER*/
+
 header{
     background-color: white;
     position: fixed;
     width: 100%;
-    height: 100px;
+    height: 70px;
     display: flex;
     align-items: center;
 }
@@ -44,6 +46,7 @@ ul{
 }
 
 .pulsante-blu{
+    width: fit-content;
     color: white;
     background-color: #0061FF;
     padding: 10px 20px;
@@ -55,8 +58,12 @@ ul{
     background-color: white;
     color: #0061FF;
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
+/*MAIN*/
+
+/*SEZIONE PROVA GRATUITA*/
 .background-azzurro{
     background-color: #B4D0E7;
     height: 800px;
@@ -66,32 +73,46 @@ ul{
     width: 70%;
     height: 800px;
     margin: auto;
-    background-color: burlywood;
 }
 
 .margin-top{
-    padding-top: 200px;
+    padding-top: 130px;
 }
 
-.contenitore-testo-main{
-    font-size: 20pt;
+.margin{
+    margin: 30px 0px;
+}
+
+.contenitore-testo-titolo{
+    font-size: 63pt;
+    font-weight: 800;
     width: 100%;
-    height: 200px;
-    background-color: aquamarine;
 }
 
 .contenitore-float{
     width: 100%;
-    height: 400px;
-    background-color: crimson;
     margin-top: 50px;
+    display: flex;
 }
 
 .contenitore-testo-prova{
-    width: 40%;
-    height: 100%;
-    background-color: green;
+    width: 32%;
+    height: 80%;
+    font-size: 14pt;
+    display: inline-block;
 }
+
+.immagine-jumbo{
+    width: 68%;
+}
+
+.arrow{
+    width: 12%;
+    transform: rotate(90deg);
+    margin-top: 50px;
+}
+
+/*PIANI TARIFFARI*/
 
 .row60{
     width: 60%;
