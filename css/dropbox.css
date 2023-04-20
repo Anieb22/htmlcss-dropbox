@@ -17,6 +17,7 @@ header{
     height: 70px;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 nav{
@@ -110,6 +111,7 @@ ul{
     width: 12%;
     transform: rotate(90deg);
     margin-top: 50px;
+    transition-duration: 1s;
 }
 
 /*PIANI TARIFFARI*/
@@ -117,7 +119,6 @@ ul{
 .row60{
     width: 60%;
     margin: 100px auto;
-    background-color: bisque;
 }
 
 .content-piani{
@@ -128,37 +129,49 @@ ul{
 
 .testo-fatturazione{
     width: 100%;
-    height: 200px;
-    background-color: aqua;
+    font-size: 30pt;
+    font-weight: 700;
+    margin-bottom: 50px;
 }
 
 .row-piani-tariffari{
     width: calc(100% / 3 - 20px);
     height: 1000px;
-    background-color: chartreuse;
+    border: 1px solid gray;
     margin: 50px 0px;
 }
 
 .row-piano-enterprise{
     width: 100%;
     height: 300px;
-    background-color: chartreuse;
+    border: 1px solid gray;
 }
 
 .icone-testo{
     width: 100%;
-    height: 70px;
-    background-color: red;
+    height: 40px;
+    border-bottom: 1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/*SEZIONE 3*/
+
 .contenitore-immagine-sezione3{
     width: 100%;
-    height: 700px;
-    background-color: blueviolet;
     margin: 200px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.immagine-misura{
+    width: 70%;
+}
+
+.contenitore-testo-sezione3{
+    width: 30%;
+    margin: 70px 20px;
 }
 
 .operazioni-dropbox-business{
