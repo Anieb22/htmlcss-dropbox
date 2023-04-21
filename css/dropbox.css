@@ -254,8 +254,12 @@ li:hover{
     width: 50%;
 }
 
+.bordo-background:hover{
+    border: 20px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
 .background-verde{
-    border: 20px solid #D1E9CD;
     background-color: #A2D39B;
 }
 
