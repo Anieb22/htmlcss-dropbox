@@ -133,6 +133,10 @@ ul{
     transition-duration: 1s;
 }
 
+.arrow:hover{
+    width: 13%;
+}
+
 /*PIANI TARIFFARI*/
 
 .row60{
@@ -219,9 +223,11 @@ ul{
     margin-top: 200px;
 }
 
+/*PORTFOLIO*/
+
 .row100{
     width: 100%;
-    height: 500px;
+    height: calc(100vh / 3);
     display: flex;
     flex-direction: row;
 }
@@ -233,20 +239,43 @@ ul{
     border: 3px dashed black;
 }
 
+/*SEZIONE 6*/
+
 .background-blu-main{
     background-color: #B4D0E7;
     width: 100%;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-footer{
-    background-color: black;
-    height: 500px;
+.contenitore-dropbox-business{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+/*DOMANDE FREQUENTI*/
 
 .contenitore-domande{
     margin: 200px 0px;
     width: 100%;
     height: 600px;
     background-color: grey;
+}
+
+.testo-domande-frequenti{
+    font-weight: 700;
+    font-size: 30pt;
+    margin-bottom: 50px;
+}
+
+.testo-domanda{
+    font-weight: 700;
+}
+
+footer{
+    background-color: black;
+    height: 500px;
 }
