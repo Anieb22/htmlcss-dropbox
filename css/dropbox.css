@@ -47,11 +47,30 @@ ul{
 }
 
 .pulsante-blu{
-    width: fit-content;
     color: white;
     background-color: #0061FF;
-    padding: 10px 20px;
     border: 0;
+}
+
+.pulsante-bianco{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 12pt;
+}
+
+.pulsante-bianco:hover{
+    color: white;
+    background-color: #0061FF;
+    border: 0;
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+
+.pulsante{
+    width: fit-content;
+    padding: 10px 20px;
 }
 
 .pulsante-blu:hover{
