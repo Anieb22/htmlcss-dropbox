@@ -240,6 +240,8 @@ li:hover{
     background-color:#F5F5F5;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenitore-logo-azienda{
@@ -254,9 +256,24 @@ li:hover{
     width: 50%;
 }
 
+hr{
+    border-color: rgba(211, 211, 211, 0.26);
+    width: 20%;
+    margin: 40px 0px;
+}
+
+.testo-portfolio{
+    margin-top: 40px
+}
+
 .bordo-background:hover{
     border: 20px solid rgba(255, 255, 255, 0.5);
     cursor: pointer;
+}
+
+.contenitore-azienda{
+    width: 85%;
+    height: 85%;
 }
 
 .background-verde{
