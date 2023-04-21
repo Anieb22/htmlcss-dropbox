@@ -33,15 +33,18 @@ nav{
 
 }
 
+ul{
+    list-style-type: none;
+}
+
 .menu-navigazione{
     display:flex;
     color: gray;
-    list-style-type: none;
     align-items: center;
     justify-content: space-around;
 }
 
-.link-sottolineati:hover{
+li:hover{
     text-decoration: underline;
     cursor: pointer;
 }
@@ -290,5 +293,35 @@ nav{
 
 footer{
     background-color: black;
-    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.padding40{
+    padding: 40px;
+    line-height: 38px;
+}
+
+.contenitore-link-utili{
+    width: 80%;
+    padding: 60px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.categoria-link{
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.contenitore-link-utili{
+    width: 80%;
+    padding: 60px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
 }
