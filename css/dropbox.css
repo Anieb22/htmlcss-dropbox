@@ -182,6 +182,19 @@ ul{
     padding: 40px;
 }
 
+.row-enterprise{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenitore-enterprise{
+    width: 65%;
+}
+
+.contenitore-pulsante-enterprise{
+    width: 35%;
+}
+
 .display-baseline{
     display: flex;
     flex-direction: row;
